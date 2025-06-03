@@ -1,3 +1,6 @@
-URL_SERVICE = # Inserta tu dirección de URL sin la barra diagonal al final
-CREATE_USER_PATH = # Almacena la ruta para crear un usuario o usuaria en esta variable
-KITS_PATH = # Almacena la ruta para crear un kit en esta variable
+# configuration.py
+
+BASE_URL = "https://cnt-59563a6d-b630-4857-85d9-45a4ee1342c1.containerhub.tripleten-services.com"
+API: "https://cnt-59563a6d-b630-4857-85d9-45a4ee1342c1.containerhub.tripleten-services.com/docs/"
+CREATE_USER_ENDPOINT = "/api/v1/users"
+CREATE_KIT_ENDPOINT = "/api/v1/kits"
